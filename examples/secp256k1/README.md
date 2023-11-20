@@ -6,7 +6,7 @@
 
 [CKB Default Lock](https://www.notion.so/cryptape/examples/secp256k1) is the most commonly used lock script on [Nervos CKB](https://www.nervos.org/), also a great starting point for beginners due to its simplicity. You can create private spores and clusters with the [CKB Default Lock](https://github.com/nervosnetwork/ckb-system-scripts/blob/master/c/secp256k1_blake160_sighash_all.c) for safeguarding ownership of your private assets.
 
-[CKB Default Lock](https://www.notion.so/cryptape/examples/secp256k1) is also known as the `Secp256k1Blake160 Sign-all` lock. 
+[CKB Default Lock](https://www.notion.so/cryptape/examples/secp256k1) is also known as the `Secp256k1Blake160 Sign-all` lock.
 
 ### Featured examples
 
@@ -17,13 +17,13 @@ Spore:
 
 Cluster:
 - [apis/createCluster.ts](./apis/createCluster.ts): Create a cluster with [CKB Default Lock](https://www.notion.so/cryptape/examples/secp256k1)
-- [apis/transferSpore.ts](./apis/transferCluster.ts): Unlock and transfer a cluster from A to B
+- [apis/transferCluster.ts](./apis/transferCluster.ts): Unlock and transfer a cluster from A to B
 
 ## Run examples
 
-> Please make sure you've met the pre-requirements:  
-> [`Node.js`](https://nodejs.org/) >= 18.0.0  
-> [`PNPM`](https://pnpm.io/) >= 8.0.0  
+> Please make sure you've met the pre-requirements:
+> [`Node.js`](https://nodejs.org/) >= 18.0.0
+> [`PNPM`](https://pnpm.io/) >= 8.0.0
 
 ### Setup environment
 
@@ -71,7 +71,7 @@ How to replace them:
 
 For those who want to create new accounts for testing the examples, you can follow the steps below to create a new private key and claim some faucet CKBytes.
 
-**1. Generate a new account:** 
+**1. Generate a new account:**
 
 1. Open the [Generator Tool](https://ckb.tools/generator) website
 2. Click the refresh icon (🔄) on the page to generate a new account
